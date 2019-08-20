@@ -42,25 +42,7 @@ let forecastJSON = [
       return date.toString().slice(0,3);
   }
   getWeather(userInput) {
-    // const promises = this.appIds.map(controlPoint => {
-    //   return fetch(
-    //     `https://api.openweathermap.org/data/2.5/${
-    //       controlPoint.type
-    //     }?q=${userInput}&units=${this.units}&APPID=${controlPoint.APPID}`
-    //   ).then(response => {
-    //     if (response.ok) {
-    //       return response.json();
-    //     }
-    //   }).then(data => {
-    //     if(controlPoint.type === 'weather') {
-    //       AppState.update('WEATHER', data)
-    //     } else {
-    //       AppState.update('FORECAST', data)
-    //     }
-    //     return data
-    //   });
-    // });
-    // return Promise.all(promises)
+    
 
     // for (let i in a.list) {
     //   if (i === '1') {
