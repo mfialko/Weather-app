@@ -18,7 +18,8 @@
     },
     "devDependencies": {
         "cssnano": "^4.1.10",
+        "gh-pages": "^2.1.1",
         "shx": "^0.3.2"
     },
-    "homepage": "https://mfialko.github.io/weather-app"
+    "public-url": "https://mfialko.github.io/weather-app"
 }
