@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica";
+}
+
+html {  
+    /* background: linear-gradient(90deg, rgb(193, 228, 172), rgb(182, 182, 236)); */
+}
+ .search-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+    width: 100%;
+    height: 12vw;
+}
+.main {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 6vw;
+    margin-top: 10vw;
+    height: 70vw;
+    background-color: rgb(127, 47, 255);
+    padding: 3vw;
+    padding-left: 10vw;
+}
+
+.main .temp p {
+    font-size: 3vw;
+    color: white;
+}
+.main .temp span {
+    font-size: 10vw;
+}
+.day {
+    width: 20vw;
+    height: 30vw;
+    border-radius: 3vw;
+    background-color: 	#34DBAD;
+    text-align: center;
+    color: white;
+}
+.day .temp {
+    display: flex;
+    justify-content: space-evenly;
+}
+.week-weather {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vw;
+    font-size: 4vw;
+}
+
+
